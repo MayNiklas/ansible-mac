@@ -8,6 +8,7 @@ homebrew_apps:
   - signal
   - discord
   - telegram
+  - whatsapp
   - docker
   - firefox
   - chromium
@@ -51,7 +52,6 @@ mas_apps:
   - { name: Microsoft Remote Desktop, id: 1295203466 }
   - { name: Magnet, id: 441258766 }
   - { name: Parcel - Delivery Tracking, id: 639968404 }
-  - { name: WhatsApp Desktop, id: 1147396723 }
 
 
 
