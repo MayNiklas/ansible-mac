@@ -10,7 +10,7 @@
 brew install ansible
 ```
 
-### Executing palybook
+### Executing playbook
 ```bash
 ansible-playbook site.yml
 ```
