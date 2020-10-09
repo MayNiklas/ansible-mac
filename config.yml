@@ -9,19 +9,23 @@ homebrew_apps:
   - discord
   - docker
   - firefox
+  - chromium
   - tor-browser
   - adobe-creative-cloud 
   - jetbrains-toolbox
+  - github
   - spotify
   - vlc
-  - plex-media-player
+  - obs
+  - parsec
+  - plex
+  - ultimaker-cura
   - sublime-text
   - filebot
   - cyberduck
   - forklift
   - balenaetcher
   - vmware-fusion
-
 
 homebrew_packages:
   - mas
@@ -34,7 +38,9 @@ homebrew_packages:
   - wget
   - hugo
   - gradle
-
+  - htop
+  - glances
+  - docker-compose
 
 mas_apps:
   - { name: 1Password 7 - Password Manager, id: 1333542190 }
