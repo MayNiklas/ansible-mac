@@ -1,0 +1,51 @@
+---
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_apps:
+  - signal
+  - discord
+  - docker
+  - firefox
+  - tor-browser
+  - adobe-creative-cloud 
+  - jetbrains-toolbox
+  - spotify
+  - vlc
+  - plex-media-player
+  - sublime-text
+  - filebot
+  - cyberduck
+  - forklift
+  - balenaetcher
+  - vmware-fusion
+
+
+homebrew_packages:
+  - mas
+  - ansible
+  - iperf3
+  - nmap
+  - wakeonlan
+  - fish
+  - git
+  - wget
+  - hugo
+  - gradle
+
+
+mas_apps:
+  - { name: 1Password 7 - Password Manager, id: 1333542190 }
+  - { name: Twitter, id: 1482454543 }
+  - { name: WireGuard, id: 1451685025 }
+  - { name: Microsoft Excel, id: 462058435 }
+  - { name: Microsoft Remote Desktop, id: 1295203466 }
+  - { name: Magnet, id: 441258766 }
+  - { name: Parcel - Delivery Tracking, id: 639968404 }
+  - { name: WhatsApp Desktop, id: 1147396723 }
+  - { name: Telegram, id: 747648890 }
+
+
+

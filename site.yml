@@ -1,0 +1,18 @@
+---
+
+- hosts: localhost
+
+  pre_tasks:
+    - name: Include configuration
+      include_vars: "{{ item }}"
+      with_first_found:
+        - files:
+            - config.yml
+          skip: true
+      tags: ['always']
+
+  roles:
+    - role: ansible-homebrew
+      tags: [homebrew]
+    - role: ansible-mas
+      tags: [mas]
