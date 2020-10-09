@@ -7,6 +7,7 @@ homebrew_taps:
 homebrew_apps:
   - signal
   - discord
+  - telegram
   - docker
   - firefox
   - chromium
@@ -51,7 +52,6 @@ mas_apps:
   - { name: Magnet, id: 441258766 }
   - { name: Parcel - Delivery Tracking, id: 639968404 }
   - { name: WhatsApp Desktop, id: 1147396723 }
-  - { name: Telegram, id: 747648890 }
 
 
 
