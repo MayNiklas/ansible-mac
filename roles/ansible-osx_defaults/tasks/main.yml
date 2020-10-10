@@ -88,3 +88,11 @@
     type: int
     value: "0"
 #   state: absent
+
+- name: Dock on the left side
+  osx_defaults:
+    domain: "com.apple.dock"
+    key: "orientation"
+    type: string
+    value: "left"
+#   state: absent
