@@ -8,3 +8,8 @@
     type: rsa
     size: "{{ ssh_size }}"
     path: "{{ ssh_path }}"
+  register: task_result
+
+- name: add new key to ssh-agent 
+  shell: ssh-add -K {{ ssh_path }}
+  when: task_result is changed
