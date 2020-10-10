@@ -104,3 +104,11 @@
     type: bool
     value: "true"
 #   state: absent
+
+- name: Remove the auto-hiding Dock delay
+  osx_defaults:
+    domain: "com.apple.dock"
+    key: "autohide-delay"
+    type: float
+    value: "0"
+#   state: absent
