@@ -112,3 +112,11 @@
     type: float
     value: "0"
 #   state: absent
+
+- name: Remove the animation when hiding/showing the Dock
+  osx_defaults:
+    domain: "com.apple.dock"
+    key: "autohide-time-modifier"
+    type: float
+    value: "0"
+#   state: absent
