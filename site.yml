@@ -12,8 +12,7 @@
       tags: ['always']
 
   roles:
+    - role: ansible-osx_defaults
     - role: ansible-ssh
     - role: ansible-homebrew
-      tags: [homebrew]
     - role: ansible-mas
-      tags: [mas]

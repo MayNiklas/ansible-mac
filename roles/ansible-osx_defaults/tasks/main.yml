@@ -1,0 +1,11 @@
+---
+# tasks file for ansible-osx_defaults
+
+- name: darkmode
+  osx_defaults:
+    domain: "Apple Global Domain"
+    key: "AppleInterfaceStyle"
+    type: string
+    value: "Dark"
+#   state: absent
+
