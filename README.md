@@ -14,3 +14,6 @@ brew install ansible
 ```bash
 ansible-playbook site.yml
 ```
+
+Preperation:
+- login into the app store
