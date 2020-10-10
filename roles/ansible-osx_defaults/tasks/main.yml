@@ -96,3 +96,11 @@
     type: string
     value: "left"
 #   state: absent
+
+- name: Automatically hide and show the Dock
+  osx_defaults:
+    domain: "com.apple.dock"
+    key: "autohide"
+    type: bool
+    value: "true"
+#   state: absent
