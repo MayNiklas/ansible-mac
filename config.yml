@@ -1,5 +1,9 @@
 ---
 
+ssh_path: ~/.ssh/id_rsa
+ssh_size: 4096
+ssh_comment: macbook
+
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
