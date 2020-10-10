@@ -1,0 +1,10 @@
+---
+# tasks file for ansible-ssh
+
+- name: generate SSH key
+  openssh_keypair:
+    state: present
+    comment: "{{ ssh_comment }}"
+    type: rsa
+    size: "{{ ssh_size }}"
+    path: "{{ ssh_path }}"
