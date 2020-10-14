@@ -33,6 +33,7 @@ homebrew_apps:
   - cyberduck
   - forklift
   - balenaetcher
+  - cleanmymac
   - yubico-authenticator
   - vmware-fusion
 
