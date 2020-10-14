@@ -35,6 +35,7 @@ homebrew_apps:
   - balenaetcher
   - cleanmymac
   - synology-drive
+  - wacom-tablet
   - yubico-authenticator
   - vmware-fusion
 
