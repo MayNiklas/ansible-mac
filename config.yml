@@ -34,6 +34,7 @@ homebrew_apps:
   - forklift
   - balenaetcher
   - cleanmymac
+  - synology-drive
   - yubico-authenticator
   - vmware-fusion
 
