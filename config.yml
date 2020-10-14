@@ -7,6 +7,7 @@ ssh_comment: macbook
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-drivers
 
 homebrew_apps:
   - signal
@@ -32,6 +33,7 @@ homebrew_apps:
   - cyberduck
   - forklift
   - balenaetcher
+  - yubico-authenticator
   - vmware-fusion
 
 homebrew_packages:
