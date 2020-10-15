@@ -37,6 +37,7 @@ homebrew_apps:
   - synology-drive
   - wacom-tablet
   - yubico-authenticator
+  - eizo-colornavigator
   - vmware-fusion
 
 homebrew_packages:
