@@ -1,14 +1,19 @@
 ---
 # tasks file for ansible-git
-- git_config:
+- name: github config - email
+  git_config:
     name: user.email
     scope: global
     value: "{{ git_mail }}"
 
-- git_config:
+- name: github config - name
+  git_config:
     name: user.name
     scope: global
-    value: "{{ git_name }}"  git_config:
+    value: "{{ git_name }}"
+
+- name: github config - editor
+  git_config:
     name: core.editor
     scope: global
     value: "{{ git_editor }}"
