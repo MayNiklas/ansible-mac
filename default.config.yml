@@ -1,13 +1,18 @@
 ---
 
+configure_osx: true
+
+configure_ssh: true
 ssh_path: ~/.ssh/id_rsa
 ssh_size: 4096
 ssh_comment: macbook
 
+configure_git: yes
 git_mail: user@example.com
 git_name: MayNiklas
 git_editor: "subl -n -w"
 
+configure_brew: true
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
@@ -59,6 +64,7 @@ homebrew_packages:
   - glances
   - docker-compose
 
+configure_mas: true
 mas_apps:
   - { name: 1Password 7 - Password Manager, id: 1333542190 }
   - { name: Twitter, id: 1482454543 }
