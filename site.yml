@@ -13,6 +13,7 @@
 
   roles:
     - role: ansible-osx_defaults
+    - role: ansible-git    
     - role: ansible-ssh
     - role: ansible-homebrew
     - role: ansible-mas

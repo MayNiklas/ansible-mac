@@ -4,6 +4,9 @@ ssh_path: ~/.ssh/id_rsa
 ssh_size: 4096
 ssh_comment: macbook
 
+git_mail: user@example.com
+git_name: MayNiklas
+
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
