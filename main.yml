@@ -2,14 +2,13 @@
 
 - hosts: localhost
 
+  vars_files:
+    - default.config.yml
+
   pre_tasks:
-    - name: Include configuration
-      include_vars: "{{ item }}"
-      with_first_found:
-        - files:
-            - config.yml
-          skip: true
-      tags: ['always']
+    - include_vars: "{{ item }}"
+      with_fileglob:
+        - "{{ playbook_dir }}/config.yml"
 
   roles:
     - role: ansible-git    
