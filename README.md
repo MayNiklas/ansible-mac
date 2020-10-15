@@ -9,6 +9,10 @@
 ```bash
 brew install ansible
 ```
+### Configure the variables to your liking
+```
+nano config.yml
+```
 
 ### Executing playbook
 ```bash
