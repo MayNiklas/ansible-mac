@@ -17,7 +17,7 @@ nano config.yml
 
 ### Executing playbook
 ```bash
-ansible-playbook site.yml
+ansible-playbook main.yml
 ```
 
 Preperation:
