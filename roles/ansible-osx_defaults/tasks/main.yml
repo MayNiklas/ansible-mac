@@ -120,15 +120,3 @@
     type: float
     value: "0"
 #   state: absent
-
-- name: Adding volume menu icon
-  osx_defaults:
-    domain: com.apple.systemuiserver
-    key: menuExtras
-    type: array
-    value:
-      - "/System/Library/CoreServices/Menu Extras/Clock.menu"
-      - "/System/Library/CoreServices/Menu Extras/Battery.menu"
-      - "/System/Library/CoreServices/Menu Extras/Bluetooth.menu"
-      - "/System/Library/CoreServices/Menu Extras/AirPort.menu"
-      - "/System/Library/CoreServices/Menu Extras/Displays.menu"
