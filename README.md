@@ -11,6 +11,7 @@ brew install ansible
 ```
 ### Configure the variables to your liking
 ```
+cp default.config.yml config.yml
 nano config.yml
 ```
 
