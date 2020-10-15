@@ -8,4 +8,7 @@
 - git_config:
     name: user.name
     scope: global
-    value: "{{ git_name }}"
+    value: "{{ git_name }}"  git_config:
+    name: core.editor
+    scope: global
+    value: "{{ git_editor }}"
