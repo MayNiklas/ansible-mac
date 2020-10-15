@@ -1,0 +1,4 @@
+---
+# defaults file for ansible-git
+git_mail: "user@example.com"
+git_name: "MayNiklas"
