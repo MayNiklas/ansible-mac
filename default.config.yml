@@ -47,6 +47,7 @@ homebrew_apps:
   - wacom-tablet
   - yubico-authenticator
   - eizo-colornavigator
+  - monitorcontrol
   - vmware-fusion
 
 homebrew_packages:
