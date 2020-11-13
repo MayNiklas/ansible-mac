@@ -1,0 +1,15 @@
+- src: 'https://github.com/MayNiklas/ansible-git.git'
+  name: ansible-git
+  scm: git
+- src: 'https://github.com/MayNiklas/ansible-ssh.git'
+  name: ansible-ssh
+  scm: git
+- src: 'https://github.com/MayNiklas/ansible-osx_defaults.git'
+  name: ansible-osx_defaults
+  scm: git
+- src: 'https://github.com/MayNiklas/ansible-homebrew.git'
+  name: ansible-homebrew
+  scm: git
+- src: 'https://github.com/MayNiklas/ansible-mas.git'
+  name: ansible-mas
+  scm: git
