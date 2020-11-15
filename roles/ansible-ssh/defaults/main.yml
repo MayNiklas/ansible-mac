@@ -1,5 +1,0 @@
----
-# defaults file for ansible-ssh
-ssh_path: ~/.ssh/id_rsa
-ssh_size: 4096
-ssh_comment: macbook
