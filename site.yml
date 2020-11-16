@@ -1,15 +1,6 @@
 ---
 
 - hosts: localhost
-
-  vars_files:
-    - default.config.yml
-
-  pre_tasks:
-    - include_vars: "{{ item }}"
-      with_fileglob:
-        - "{{ playbook_dir }}/config.yml"
-
   roles:
     - role: ansible-git
       when: configure_git
