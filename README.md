@@ -24,7 +24,7 @@ ansible-galaxy install -r requirements.yml
 
 ### Executing playbook
 ```bash
-ansible-playbook main.yml
+ansible-playbook site.yml
 ```
 
 Preperation:
