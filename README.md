@@ -14,8 +14,12 @@ brew install ansible
 ```
 ### Configure the variables to your liking
 ```
-cp default.config.yml config.yml
-nano config.yml
+nano host_vars/localhost.yml
+```
+
+### Install required roles
+```
+ansible-galaxy install -r requirements.yml
 ```
 
 ### Executing playbook
