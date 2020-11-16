@@ -10,7 +10,6 @@ ssh_comment: macbook
 configure_git: yes
 git_mail: user@example.com
 git_name: MayNiklas
-git_editor: "subl -n -w"
 
 configure_brew: true
 homebrew_taps:
