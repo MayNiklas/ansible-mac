@@ -2,6 +2,8 @@
 
 configure_osx: true
 
+configure_yubikey: true
+
 configure_ssh: true
 ssh_path: ~/.ssh/id_rsa
 ssh_size: 4096
