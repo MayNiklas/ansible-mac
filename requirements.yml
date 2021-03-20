@@ -1,6 +1,9 @@
 - src: 'https://github.com/MayNiklas/ansible-git.git'
   name: ansible-git
   scm: git
+- src: 'https://github.com/MayNiklas/ansible-yubikey-mac.git'
+  name: ansible-git
+  scm: git
 - src: 'https://github.com/MayNiklas/ansible-ssh.git'
   name: ansible-ssh
   scm: git
