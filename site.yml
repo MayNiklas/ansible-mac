@@ -4,6 +4,8 @@
   roles:
     - role: ansible-git
       when: configure_git
+    - role: ansible-yubikey-mac
+      when: configure_yubikey
     - role: ansible-ssh
       when: configure_ssh
     - role: ansible-osx_defaults
