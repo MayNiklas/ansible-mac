@@ -16,3 +16,6 @@
 - src: 'https://github.com/MayNiklas/ansible-mas.git'
   name: ansible-mas
   scm: git
+- src: 'https://github.com/MayNiklas/ansible-shell-mac.git'
+  name: ansible-shell-mac
+  scm: git
