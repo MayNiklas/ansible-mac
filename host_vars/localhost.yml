@@ -23,57 +23,57 @@ homebrew_taps:
   - drone/drone
 
 homebrew_apps:
-  - signal
-  - discord
-  - telegram
-  - whatsapp
-  - docker
-  - firefox
+  - adobe-creative-cloud
+  - balenaetcher
   - chromium
-  - tor-browser
-  - adobe-creative-cloud 
-  - jetbrains-toolbox
+  - cleanmymac
+  - discord
+  - docker
+  - eizo-colornavigator
+  - filebot
+  - firefox
+  - forklift
   - github
-  - spotify
-  - vlc
+  - jetbrains-toolbox
+  - monitorcontrol
   - obs
   - plex
-  - ultimaker-cura
+  - signal
+  - spotify
   - sublime-text
-  - filebot
-  - forklift
-  - balenaetcher
-  - cleanmymac
-  - yubico-authenticator
-  - eizo-colornavigator
-  - monitorcontrol
+  - telegram
+  - tor-browser
+  - ultimaker-cura
+  - vlc
   - vmware-fusion
+  - whatsapp
+  - yubico-authenticator
 
 homebrew_packages:
-  - drone
-  - mas
   - ansible
-  - iperf3
-  - nmap
-  - wakeonlan
+  - docker-compose
+  - drone
   - fish
   - git
-  - wget
-  - hugo
+  - glances
   - gradle
   - htop
-  - glances
-  - docker-compose
+  - hugo
+  - iperf3
+  - mas
+  - nmap
+  - wakeonlan
+  - wget
 
 configure_mas: true
 mas_apps:
-  - { name: 1Password 7 - Password Manager, id: 1333542190 }
-  - { name: Twitter, id: 1482454543 }
-  - { name: WireGuard, id: 1451685025 }
-  - { name: Microsoft Excel, id: 462058435 }
-  - { name: Microsoft Remote Desktop, id: 1295203466 }
-  - { name: Magnet, id: 441258766 }
-  - { name: Parcel - Delivery Tracking, id: 639968404 }
+  - { name: 1Password 7 - Password Manager,id: 1295203466 }
+  - { name: Magnet,id: 1333542190 }
+  - { name: Twitter,id: 1451685025 }
+  - { name: Microsoft Excel,id: 1482454543 }
+  - { name: WireGuard,id: 441258766 }
+  - { name: Parcel - Delivery Tracking,id: 462058435 }
+  - { name: Microsoft Remote Desktop,id: 639968404 }
 
 
 
