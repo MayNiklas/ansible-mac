@@ -12,7 +12,7 @@ ssh_size: 4096
 ssh_comment: macbook
 
 configure_git: yes
-git_mail: user@example.com
+git_mail: info@niklas-steffen.de
 git_name: MayNiklas
 
 configure_brew: true
