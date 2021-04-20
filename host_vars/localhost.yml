@@ -45,6 +45,7 @@ homebrew_apps:
   - tor-browser
   - ultimaker-cura
   - vlc
+  - visual-studio-code
   - vmware-fusion
   - whatsapp
   - yubico-authenticator
