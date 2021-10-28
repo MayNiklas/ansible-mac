@@ -29,10 +29,10 @@ homebrew_apps:
   - cleanmymac
   - discord
   - docker
-  - eizo-colornavigator
-  - filebot
+#  - eizo-colornavigator
+#  - filebot
   - firefox
-  - forklift
+#  - forklift
   - github
   - jetbrains-toolbox
   - monitorcontrol
@@ -54,10 +54,8 @@ homebrew_packages:
   - ansible
   - docker-compose
   - drone
-  - fish
   - git
   - glances
-  - gradle
   - htop
   - hugo
   - iperf3
@@ -76,6 +74,3 @@ mas_apps:
   - { name: WireGuard,id: 441258766 }
   - { name: Parcel - Delivery Tracking,id: 462058435 }
   - { name: Microsoft Remote Desktop,id: 639968404 }
-
-
-
