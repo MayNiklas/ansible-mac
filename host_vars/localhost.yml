@@ -49,6 +49,7 @@ homebrew_apps:
   - vmware-fusion
   - whatsapp
   - yubico-authenticator
+  - zoom
 
 homebrew_packages:
   - ansible
