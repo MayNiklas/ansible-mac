@@ -6,7 +6,7 @@ configure_yubikey: true
 
 configure_shell: true
 
-configure_ssh: true
+configure_ssh: false
 ssh_path: ~/.ssh/id_rsa
 ssh_size: 4096
 ssh_comment: macbook
