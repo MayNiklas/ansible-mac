@@ -64,6 +64,7 @@ homebrew_packages:
   - nmap
   - wakeonlan
   - wget
+  - youtube-dl
 
 configure_mas: true
 mas_apps:
