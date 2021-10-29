@@ -38,6 +38,7 @@ homebrew_apps:
   - monitorcontrol
   - obs
   - plex
+  - raspberry-pi-imager
   - signal
   - spotify
   - sublime-text
