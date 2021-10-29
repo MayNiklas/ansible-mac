@@ -23,6 +23,7 @@ homebrew_taps:
   - drone/drone
 
 homebrew_apps:
+  - atom
   - adobe-creative-cloud
   - balenaetcher
   - chromium
