@@ -49,7 +49,6 @@ homebrew_apps:
   - vlc
   - visual-studio-code
   - vmware-fusion
-  - whatsapp
   - yubico-authenticator
   - zoom
 
@@ -78,5 +77,6 @@ mas_apps:
   - { name: Twitter,id: 1451685025 }
   - { name: Microsoft Excel,id: 1482454543 }
   - { name: WireGuard,id: 441258766 }
+  - { name: WhatsApp Desktop, id: 1147396723 }
   - { name: Parcel - Delivery Tracking,id: 462058435 }
   - { name: Microsoft Remote Desktop,id: 639968404 }
