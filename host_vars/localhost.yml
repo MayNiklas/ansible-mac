@@ -37,6 +37,7 @@ homebrew_apps:
   - github
   - jetbrains-toolbox
   - monitorcontrol
+  - mpv
   - obs
   - plex
   - raspberry-pi-imager
