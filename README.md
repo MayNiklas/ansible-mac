@@ -7,6 +7,10 @@
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
+### Clone repository
+```bash
+git clone --recursive https://github.com/MayNiklas/ansible-mac.git
+```
 
 ### Installing Ansible
 ```bash
