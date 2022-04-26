@@ -1,0 +1,21 @@
+[submodule "roles/ansible-git"]
+	path = roles/ansible-git
+	url = https://github.com/MayNiklas/ansible-git.git
+[submodule "roles/ansible-yubikey"]
+	path = roles/ansible-yubikey
+	url = https://github.com/MayNiklas/ansible-yubikey-mac.git
+[submodule "roles/ansible-ssh"]
+	path = roles/ansible-ssh
+	url = https://github.com/MayNiklas/ansible-ssh.git
+[submodule "roles/ansible-osx_defaults"]
+	path = roles/ansible-osx_defaults
+	url = https://github.com/MayNiklas/ansible-osx_defaults.git
+[submodule "roles/ansible-homebrew"]
+	path = roles/ansible-homebrew
+	url = https://github.com/MayNiklas/ansible-homebrew.git
+[submodule "roles/ansible-mas"]
+	path = roles/ansible-mas
+	url = https://github.com/MayNiklas/ansible-mas.git
+[submodule "roles/ansible-shell-mac"]
+	path = roles/ansible-shell-mac
+	url = https://github.com/MayNiklas/ansible-shell-mac.git
