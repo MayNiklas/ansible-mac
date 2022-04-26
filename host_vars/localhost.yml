@@ -23,34 +23,21 @@ homebrew_taps:
   - drone/drone
 
 homebrew_apps:
-  - atom
   - adobe-creative-cloud
-  - balenaetcher
-  - chromium
-  - cleanmymac
   - discord
   - docker
   - element
-#  - eizo-colornavigator
-#  - filebot
   - firefox
-#  - forklift
   - github
   - jetbrains-toolbox
   - monitorcontrol
-  - mpv
-  - obs
   - plex
-  - raspberry-pi-imager
   - signal
   - spotify
   - sublime-text
   - telegram
-  - tor-browser
-  - ultimaker-cura
   - vlc
   - visual-studio-code
-  - vmware-fusion
   - yubico-authenticator
   - zoom
 
@@ -58,17 +45,13 @@ homebrew_packages:
   - ansible
   - asciinema
   - docker-compose
-  - drone
   - git
-  - glances
-  - htop
   - hugo
   - iperf3
   - mas
   - nmap
   - wakeonlan
   - wget
-  - youtube-dl
 
 configure_mas: true
 mas_apps:
@@ -77,9 +60,9 @@ mas_apps:
   - { name: Blackmagic Disk Speed Test, id: 425264550 }
   - { name: Final Cut Pro,id: 424389933 }
   - { name: Magnet,id: 1333542190 }
-  - { name: Twitter,id: 1451685025 }
   - { name: Microsoft Excel,id: 1482454543 }
-  - { name: WireGuard,id: 441258766 }
-  - { name: WhatsApp Desktop, id: 1147396723 }
-  - { name: Parcel - Delivery Tracking,id: 462058435 }
   - { name: Microsoft Remote Desktop,id: 639968404 }
+  - { name: Parcel - Delivery Tracking,id: 462058435 }
+  - { name: Twitter,id: 1451685025 }
+  - { name: WhatsApp Desktop, id: 1147396723 }
+  - { name: WireGuard,id: 441258766 }
