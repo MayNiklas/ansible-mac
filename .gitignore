@@ -1,5 +1,6 @@
 # ---> Ansible
 *.retry
+collections
 roles
 
 # ---> Vim
