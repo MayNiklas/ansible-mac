@@ -46,6 +46,8 @@ homebrew_packages:
   - asciinema
   - docker-compose
   - git
+  - glances
+  - htop
   - hugo
   - iperf3
   - mas
