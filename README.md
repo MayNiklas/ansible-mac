@@ -3,31 +3,33 @@
 [![Lines Of Code](https://tokei.rs/b1/github/MayNiklas/ansible-mac?category=code)](https://github.com/XAMPPRocky/tokei)
 [![Lines Of Code](https://tokei.rs/b1/github/MayNiklas/ansible-mac?category=files)](https://github.com/XAMPPRocky/tokei)
 
-### Installing brew
+### Used roles:
+- https://github.com/MayNiklas/ansible-osx_defaults.git
+- https://github.com/MayNiklas/ansible-shell-mac.git
+- https://github.com/MayNiklas/ansible-git.git
+- https://github.com/MayNiklas/ansible-yubikey-mac.git
+- https://github.com/MayNiklas/ansible-homebrew.git
+- https://github.com/MayNiklas/ansible-ssh.git
+- https://github.com/MayNiklas/ansible-mas.git
+
+### how to execute the playbook
 ```bash
+# install brew.sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-```
-### Clone repository
-```bash
+
+# clone repository
 git clone --recursive https://github.com/MayNiklas/ansible-mac.git
-```
 
-### Installing Ansible
-```bash
+# install ansible
 brew install ansible
-```
-### Configure the variables to your liking
-```
+
+# Configure the variables to your liking
 nano host_vars/localhost.yml
-```
 
-### Install required roles
-```
+# Install required roles
 ansible-galaxy install -r requirements.yml
-```
 
-### Executing playbook
-```bash
+# execute playbook
 ansible-playbook site.yml
 ```
 
