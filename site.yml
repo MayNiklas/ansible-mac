@@ -1,9 +1,9 @@
 ---
-
 - hosts: localhost
   roles:
     - role: ansible-git
       when: configure_git
+    - role: ansible-hosts
     - role: ansible-homebrew
       when: configure_brew
     - role: ansible-shell-mac

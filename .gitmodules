@@ -19,3 +19,6 @@
 [submodule "roles/ansible-shell-mac"]
 	path = roles/ansible-shell-mac
 	url = https://github.com/MayNiklas/ansible-shell-mac.git
+[submodule "ansible-hosts"]
+	path = ansible-hosts
+	url = https://github.com/MayNiklas/ansible-hosts.git
