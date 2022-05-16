@@ -4,8 +4,7 @@
     - role: ansible-git
       when: configure_git
     - role: ansible-hosts
-    - role: ansible-homebrew
-      when: configure_brew
+      when: configure_hosts
     - role: ansible-shell-mac
       when: configure_shell
     - role: ansible-yubikey
@@ -14,5 +13,7 @@
       when: configure_ssh
     - role: ansible-osx_defaults
       when: configure_osx
+    - role: ansible-homebrew
+      when: configure_brew
     - role: ansible-mas
       when: configure_mas

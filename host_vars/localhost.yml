@@ -1,20 +1,28 @@
 ---
 
+# set up Mac OS settings via defaults
 configure_osx: true
 
+# set up gnupg as ssh-agent
 configure_yubikey: true
 
 configure_shell: true
 
+# generate /etc/hosts & ~/.ssh/config
+configure_hosts: true
+
+# generate ssh key
 configure_ssh: false
 ssh_path: ~/.ssh/id_rsa
 ssh_size: 4096
 ssh_comment: macbook
 
+# configure git config
 configure_git: yes
 git_mail: info@niklas-steffen.de
 git_name: MayNiklas
 
+# install stuff via brew
 configure_brew: true
 homebrew_taps:
   - homebrew/core
@@ -55,6 +63,7 @@ homebrew_packages:
   - wakeonlan
   - wget
 
+# install stuff via app Store
 configure_mas: true
 mas_apps:
   - { name: 1Password 7 - Password Manager,id: 1295203466 }
