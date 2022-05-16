@@ -3,7 +3,7 @@
 	url = https://github.com/MayNiklas/ansible-git.git
 [submodule "roles/ansible-yubikey"]
 	path = roles/ansible-yubikey
-	url = https://github.com/MayNiklas/ansible-yubikey-mac.git
+	url = https://github.com/MayNiklas/ansible-yubikey.git
 [submodule "roles/ansible-ssh"]
 	path = roles/ansible-ssh
 	url = https://github.com/MayNiklas/ansible-ssh.git
