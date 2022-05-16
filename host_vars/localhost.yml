@@ -21,6 +21,7 @@ ssh_comment: macbook
 configure_git: yes
 git_mail: info@niklas-steffen.de
 git_name: MayNiklas
+# git_ignore: []
 
 # install stuff via brew
 configure_brew: true
