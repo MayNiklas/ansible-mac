@@ -1,5 +1,4 @@
 ---
-
 # set up Mac OS settings via defaults
 configure_osx: true
 
@@ -18,7 +17,7 @@ ssh_size: 4096
 ssh_comment: macbook
 
 # configure git config
-configure_git: yes
+configure_git: true
 git_mail: info@niklas-steffen.de
 git_name: MayNiklas
 # git_ignore: []
@@ -52,6 +51,7 @@ homebrew_apps:
 
 homebrew_packages:
   - ansible
+  - ansible-lint
   - asciinema
   - docker-compose
   - git
@@ -67,14 +67,14 @@ homebrew_packages:
 # install stuff via app Store
 configure_mas: true
 mas_apps:
-  - { name: 1Password 7 - Password Manager,id: 1295203466 }
-  - { name: Apple Configurator 2,id: 1037126344 }
+  - { name: 1Password 7 - Password Manager, id: 1295203466 }
+  - { name: Apple Configurator 2, id: 1037126344 }
   - { name: Blackmagic Disk Speed Test, id: 425264550 }
-  - { name: Final Cut Pro,id: 424389933 }
-  - { name: Magnet,id: 1333542190 }
-  - { name: Microsoft Excel,id: 1482454543 }
-  - { name: Microsoft Remote Desktop,id: 639968404 }
-  - { name: Parcel - Delivery Tracking,id: 462058435 }
-  - { name: Twitter,id: 1451685025 }
+  - { name: Final Cut Pro, id: 424389933 }
+  - { name: Magnet, id: 1333542190 }
+  - { name: Microsoft Excel, id: 1482454543 }
+  - { name: Microsoft Remote Desktop, id: 639968404 }
+  - { name: Parcel - Delivery Tracking, id: 462058435 }
+  - { name: Twitter, id: 1451685025 }
   - { name: WhatsApp Desktop, id: 1147396723 }
-  - { name: WireGuard,id: 441258766 }
+  - { name: WireGuard, id: 441258766 }
