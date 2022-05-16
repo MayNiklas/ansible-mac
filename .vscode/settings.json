@@ -1,9 +1,10 @@
 {
-    "[ansible]": {
-        "editor.defaultFormatter": "redhat.vscode-yaml",
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
     },
     "files.associations": {
         "*.j2": "ansible-jinja",
-        "*.yaml": "ansible",
+        "^/roles/*/tasks/*.yml": "ansible",
     },
+    // "files.autoGuessEncoding": true
 }
