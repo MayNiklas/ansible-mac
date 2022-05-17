@@ -2,13 +2,28 @@
     "[yaml]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
+    "[ansible]": {
+        "editor.tabSize": 2,
+        "editor.quickSuggestions": {
+            "comments": true,
+            "other": true,
+            "strings": true
+        }
+    },
     "files.associations": {
         // .vscode
-        ".vscode/*.json": "jsonc",
+        "**/.vscode/*.json": "jsonc",
         // Ansible
-        "host_vars/*.yml": "jinja-yaml",
+        "**/host_vars/*.yml": "jinja-yaml",
         "ansible.cfg": "ini",
         "requirements.yml": "pip-requirements",
         "site.yml": "ansible",
+        // Ansible roles
+        "**/roles/**/defaults/*.yml": "jinja-yaml",
+        "**/roles/**/handlers/*.yml": "ansible",
+        "**/roles/**/meta/*.yml": "ansible",
+        "**/roles/**/tasks/*.yml": "ansible",
+        "**/roles/**/templates/*.j2": "jinja",
+        "**/roles/**/vars/*.yml": "jinja-yaml",
     },
 }
