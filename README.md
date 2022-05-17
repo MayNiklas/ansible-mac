@@ -7,7 +7,7 @@
 - https://github.com/MayNiklas/ansible-osx_defaults.git
 - https://github.com/MayNiklas/ansible-shell-mac.git
 - https://github.com/MayNiklas/ansible-git.git
-- https://github.com/MayNiklas/ansible-yubikey-mac.git
+- https://github.com/MayNiklas/ansible-yubikey.git
 - https://github.com/MayNiklas/ansible-homebrew.git
 - https://github.com/MayNiklas/ansible-ssh.git
 - https://github.com/MayNiklas/ansible-mas.git

@@ -3,6 +3,7 @@
 #   - src: 'https://github.com/MayNiklas/ansible-git.git'
 #     name: ansible-git
 #     scm: git
+#   - name: mayniklas.yubikey_ssh
 #   - src: 'https://github.com/MayNiklas/ansible-yubikey-mac.git'
 #     name: ansible-yubikey
 #     scm: git
@@ -24,4 +25,3 @@
 
 collections:
   - name: community.general
-    source: https://galaxy.ansible.com
