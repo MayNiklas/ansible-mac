@@ -3,8 +3,12 @@
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
     "files.associations": {
-        "*.j2": "ansible-jinja",
-        "^/roles/*/tasks/*.yml": "ansible",
+        // .vscode
+        ".vscode/*.json": "jsonc",
+        // Ansible
+        "host_vars/*.yml": "jinja-yaml",
+        "ansible.cfg": "ini",
+        "requirements.yml": "pip-requirements",
+        "site.yml": "ansible",
     },
-    // "files.autoGuessEncoding": true
 }
