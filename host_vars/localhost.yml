@@ -10,16 +10,16 @@ configure_shell: true
 # generate /etc/hosts & ~/.ssh/config
 configure_hosts: true
 ssh_config:
-  - { ip: 192.168.20.5, host: bob}
-  - { ip: 192.168.5.20, host: aida, user: nik}
+  - { ip: 192.168.20.5, host: bob }
+  - { ip: 192.168.5.20, host: aida, user: nik }
   - { ip: 192.168.5.21, host: kora, user: nik, forward: true }
   - { ip: 5.45.108.206, host: lamafarm, port: 50937 }
   - { ip: 5.45.108.206, host: lasse, user: nik, port: 25564 }
-  - { ip: matrix.lounge.rocks, host: the-bus, user: nik}
-  - { ip: wg.nik-ste.de, host: the-hub, user: nik}
-  - { ip: 202.61.248.243, host: mobi}
+  - { ip: matrix.lounge.rocks, host: the-bus, user: nik }
+  - { ip: wg.nik-ste.de, host: the-hub, user: nik }
+  - { ip: 202.61.248.243, host: mobi }
   - { ip: lounge.rocks, host: lounge.rocks }
-  - { ip: oracle-aarch64-runner-1.lounge.rocks, host: oracle-aarch64-runner-1}
+  - { ip: oracle-aarch64-runner-1.lounge.rocks, host: oracle-aarch64-runner-1 }
   - { ip: netcup-x86-runner-1.lounge.rocks, host: netcup-x86-runner-1 }
 
 # generate ssh key
