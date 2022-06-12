@@ -32,7 +32,12 @@ ssh_comment: macbook
 configure_git: true
 git_mail: info@niklas-steffen.de
 git_name: MayNiklas
-# git_ignore: []
+git_ignore:
+  - "### macOS ###"
+  - "# General"
+  - .DS_Store
+  - .AppleDouble
+  - .LSOverride
 
 # install stuff via brew
 configure_brew: true
@@ -56,7 +61,6 @@ homebrew_apps:
   - spotify
   - sublime-text
   - telegram
-  - vlc
   - visual-studio-code
   - yubico-authenticator
   - zoom
@@ -68,6 +72,7 @@ homebrew_packages:
   - docker-compose
   - git
   - glances
+  - go
   - htop
   - hugo
   - iperf3
