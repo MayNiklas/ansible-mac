@@ -38,6 +38,21 @@ git_ignore:
   - .DS_Store
   - .AppleDouble
   - .LSOverride
+  - "# nix build file"
+  - result
+  - "## Core latex/pdflatex auxiliary files:"
+  - "*.aux"
+  - "*.lof"
+  - "*.log"
+  - "*.lot"
+  - "*.fls"
+  - "*.out"
+  - "*.toc"
+  - "*.fmt"
+  - "*.fot"
+  - "*.cb"
+  - "*.cb2"
+  - ".*.lb"
 
 # install stuff via brew
 configure_brew: true
