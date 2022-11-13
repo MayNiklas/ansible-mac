@@ -65,19 +65,22 @@ homebrew_taps:
 
 homebrew_apps:
   - adobe-creative-cloud
+  - balenaetcher
   - discord
   - docker
   - element
   - firefox
   - github
   - jetbrains-toolbox
-  - monitorcontrol
+  # - mactex-no-gui
+  # - monitorcontrol
   - plex
   - signal
   - spotify
   - sublime-text
   - telegram
   - visual-studio-code
+  - vlc
   - yubico-authenticator
   - zoom
 
@@ -86,14 +89,11 @@ homebrew_packages:
   - ansible-lint
   - asciinema
   - docker-compose
-  - git
-  - glances
   - go
-  - htop
   - hugo
   - iperf3
-  - mas
   - nmap
+  - pre-commit
   - wakeonlan
   - wget
 
@@ -102,10 +102,11 @@ configure_mas: true
 mas_apps:
   - { name: 1Password 7 - Password Manager, id: 1295203466 }
   - { name: Apple Configurator 2, id: 1037126344 }
-  - { name: Blackmagic Disk Speed Test, id: 425264550 }
+  # - { name: Blackmagic Disk Speed Test, id: 425264550 }
   - { name: Final Cut Pro, id: 424389933 }
   - { name: Magnet, id: 1333542190 }
   - { name: Microsoft Excel, id: 1482454543 }
+  - { name: Microsoft Word, id: 462054704 }
   - { name: Microsoft Remote Desktop, id: 639968404 }
   - { name: Parcel - Delivery Tracking, id: 462058435 }
   - { name: Twitter, id: 1451685025 }
