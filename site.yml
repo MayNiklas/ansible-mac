@@ -1,5 +1,6 @@
 ---
-- hosts: localhost
+- name: Ansible playbook for configuring my Mac workstation
+  hosts: localhost
   roles:
     - role: ansible-git
       when: configure_git
