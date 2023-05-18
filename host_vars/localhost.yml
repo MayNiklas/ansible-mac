@@ -72,7 +72,7 @@ homebrew_apps:
   - firefox
   - github
   - jetbrains-toolbox
-  # - mactex-no-gui
+  - mactex-no-gui
   # - monitorcontrol
   - plex
   - signal
