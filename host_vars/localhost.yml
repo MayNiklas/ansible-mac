@@ -61,20 +61,16 @@ homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-drivers
-  - drone/drone
 
 homebrew_apps:
   - adobe-creative-cloud
   - balenaetcher
   - discord
-  - docker
   - element
   - firefox
   - github
   - jetbrains-toolbox
   - mactex-no-gui
-  # - monitorcontrol
-  - plex
   - signal
   - spotify
   - sublime-text
@@ -88,7 +84,6 @@ homebrew_packages:
   - ansible
   - ansible-lint
   - asciinema
-  - docker-compose
   - go
   - hugo
   - iperf3
