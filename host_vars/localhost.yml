@@ -3,7 +3,7 @@
 configure_osx: true
 
 # set up gnupg as ssh-agent
-configure_yubikey: false
+configure_yubikey: true
 
 configure_shell: true
 
