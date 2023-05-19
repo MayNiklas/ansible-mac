@@ -22,3 +22,6 @@
 [submodule "ansible-hosts"]
 	path = roles/ansible-hosts
 	url = https://github.com/MayNiklas/ansible-hosts.git
+[submodule "roles/ansible-vscode"]
+	path = roles/ansible-vscode
+	url = https://github.com/MayNiklas/ansible-vscode.git
