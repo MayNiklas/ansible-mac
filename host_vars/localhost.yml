@@ -7,6 +7,8 @@ configure_yubikey: true
 
 configure_shell: true
 
+configure_vscode: true
+
 # generate /etc/hosts & ~/.ssh/config
 configure_hosts: true
 ssh_config:
