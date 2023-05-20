@@ -16,5 +16,7 @@
       when: configure_osx
     - role: ansible-homebrew
       when: configure_brew
+    - role: ansible-vscode
+      when: configure_vscode
     - role: ansible-mas
       when: configure_mas
