@@ -26,4 +26,5 @@
         "**/roles/**/templates/*.j2": "jinja",
         "**/roles/**/vars/*.yml": "jinja-yaml",
     },
+    "ansible.python.interpreterPath": "/opt/homebrew/bin/python3",
 }
