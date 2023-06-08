@@ -16,6 +16,7 @@ ssh_config:
   - { ip: 192.168.5.21, host: kora, user: nik, forward: true }
   - { ip: 192.168.20.5, host: bob }
   - { ip: 192.168.20.10, host: simmons, user: nik }
+  - { ip: 10.88.88.17, host: rtx3060, user: nik }
   - { ip: 5.45.108.206, host: lamafarm, port: 50937 }
   - { ip: 5.45.108.206, host: lasse, user: nik, port: 25564 }
   - { ip: matrix.lounge.rocks, host: the-bus, user: nik }
