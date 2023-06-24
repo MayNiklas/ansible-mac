@@ -94,6 +94,7 @@ homebrew_packages:
   - iperf3
   - nmap
   - pre-commit
+  - rustup
   - wakeonlan
   - wget
 
