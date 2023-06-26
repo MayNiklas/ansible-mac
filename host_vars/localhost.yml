@@ -64,6 +64,9 @@ homebrew_taps:
   - homebrew/cask
   - homebrew/cask-drivers
 
+homebrew_taps_github:
+  - { name: lounge-rocks/crab_share, url: https://github.com/lounge-rocks/crab_share }
+
 homebrew_apps:
   - adobe-creative-cloud
   - balenaetcher
@@ -88,7 +91,7 @@ homebrew_packages:
   - ansible
   - ansible-lint
   - asciinema
-  - asciinema
+  - crab_share
   - go
   - htop
   - hugo
