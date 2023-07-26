@@ -85,6 +85,7 @@ homebrew_apps:
   - vlc
   - wireshark
   - yubico-authenticator
+  - yubico-yubikey-manager
   - zoom
 
 homebrew_packages:
@@ -101,6 +102,7 @@ homebrew_packages:
   - rustup
   - wakeonlan
   - wget
+  - yt-dlp
 
 # install stuff via app Store
 configure_mas: true
