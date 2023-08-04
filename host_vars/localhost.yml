@@ -93,6 +93,7 @@ homebrew_packages:
   - ansible-lint
   - asciinema
   - crab_share
+  - ffmpeg
   - go
   - htop
   - hugo
