@@ -76,6 +76,7 @@ homebrew_apps:
   - github
   - jetbrains-toolbox
   - mactex-no-gui
+  - plex
   - signal
   - spotify
   - sublime-text
