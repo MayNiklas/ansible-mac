@@ -79,6 +79,7 @@ homebrew_apps:
   - plex
   - signal
   - spotify
+  - sublime-merge
   - sublime-text
   - synology-drive
   - telegram
