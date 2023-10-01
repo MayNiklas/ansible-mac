@@ -77,6 +77,7 @@ homebrew_apps:
   - jetbrains-toolbox
   - mactex-no-gui
   - plex
+  - raspberry-pi-imager
   - signal
   - spotify
   - sublime-merge
@@ -100,6 +101,7 @@ homebrew_packages:
   - htop
   - hugo
   - iperf3
+  - latexindent
   - nmap
   - pre-commit
   - rustup
