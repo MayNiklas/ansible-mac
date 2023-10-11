@@ -8,6 +8,38 @@ configure_yubikey: true
 configure_shell: true
 
 configure_vscode: true
+vscode_extensions:
+  - DavidAnson.vscode-markdownlint
+  - GitHub.codespaces
+  - GitHub.copilot
+  - GitHub.copilot
+  - GitHub.copilot-chat
+  - GitHub.copilot-labs
+  - GitHub.github-vscode-theme
+  - GitHub.remotehub
+  - github.vscode-github-actions
+  - GitHub.vscode-pull-request-github
+  - golang.go
+  - James-Yu.latex-workshop
+  - ms-azuretools.vscode-docker
+  - ms-python.autopep8
+  - ms-python.black-formatter
+  - ms-python.isort
+  - ms-python.python
+  - ms-python.vscode-pylance
+  - ms-vscode-remote.remote-containers
+  - ms-vscode-remote.remote-ssh
+  - ms-vscode-remote.remote-ssh-edit
+  - ms-vscode-remote.vscode-remote-extensionpack
+  - ms-vscode.remote-explorer
+  - ms-vscode.remote-repositories
+  - ms-vscode.remote-server
+  - ms-vsliveshare.vsliveshare
+  - redhat.ansible
+  - redhat.vscode-xml
+  - redhat.vscode-yaml
+  - rust-lang.rust-analyzer
+  - yzhang.markdown-all-in-one
 
 # generate /etc/hosts & ~/.ssh/config
 configure_hosts: true
@@ -76,9 +108,11 @@ homebrew_apps:
   - github
   - jetbrains-toolbox
   - mactex-no-gui
+  - obsidian
   - plex
   - raspberry-pi-imager
   - signal
+  - sonos
   - spotify
   - sublime-merge
   - sublime-text
