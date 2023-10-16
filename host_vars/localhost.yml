@@ -109,6 +109,7 @@ homebrew_apps:
   - jetbrains-toolbox
   - mactex-no-gui
   - obsidian
+  - openai-whisper
   - plex
   - raspberry-pi-imager
   - signal
