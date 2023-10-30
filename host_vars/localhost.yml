@@ -139,6 +139,7 @@ homebrew_packages:
   - nmap
   - openai-whisper
   - pre-commit
+  - r
   - rustup
   - wakeonlan
   - wget
