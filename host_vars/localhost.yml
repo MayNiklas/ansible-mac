@@ -103,6 +103,7 @@ homebrew_apps:
   - adobe-creative-cloud
   - balenaetcher
   - discord
+  - docker
   - element
   - firefox
   - github
