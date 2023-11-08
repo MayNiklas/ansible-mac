@@ -158,5 +158,5 @@ mas_apps:
   - { name: Microsoft Remote Desktop, id: 639968404 }
   - { name: Parcel - Delivery Tracking, id: 462058435 }
   - { name: Twitter, id: 1451685025 }
-  - { name: WhatsApp Desktop, id: 1147396723 }
+  - { name: WhatsApp Messenger, id: 310633997 }
   - { name: WireGuard, id: 441258766 }
