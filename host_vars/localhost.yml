@@ -27,6 +27,7 @@ vscode_extensions:
   - ms-python.isort
   - ms-python.python
   - ms-python.vscode-pylance
+  - ms-toolsai.jupyter
   - ms-vscode-remote.remote-containers
   - ms-vscode-remote.remote-ssh
   - ms-vscode-remote.remote-ssh-edit
@@ -115,6 +116,7 @@ homebrew_apps:
   - signal
   - sonos
   - spotify
+  - steam
   - sublime-merge
   - sublime-text
   - synology-drive
