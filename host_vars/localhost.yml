@@ -111,6 +111,7 @@ homebrew_apps:
   - github
   - jetbrains-toolbox
   - mactex-no-gui
+  - monitorcontrol
   - obsidian
   - plex
   - raspberry-pi-imager
