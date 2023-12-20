@@ -99,6 +99,7 @@ homebrew_taps:
   - homebrew/cask-drivers
 
 homebrew_taps_github:
+  - { name: alexanderwallau/bonn-mensa, url: https://github.com/alexanderwallau/bonn-mensa }
   - { name: lounge-rocks/crab_share, url: https://github.com/lounge-rocks/crab_share }
 
 homebrew_apps:
@@ -134,6 +135,7 @@ homebrew_packages:
   - ansible
   - ansible-lint
   - asciinema
+  - bonn-mensa
   - crab_share
   - ffmpeg
   - go
