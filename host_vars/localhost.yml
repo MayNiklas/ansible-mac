@@ -103,16 +103,22 @@ homebrew_taps_github:
 
 homebrew_apps:
   - adobe-creative-cloud
+  - autodesk-fusion360
   - balenaetcher
+  - bambu-studio
   - discord
   - docker
   - element
   - firefox
+  - freecad
   - github
   - jetbrains-toolbox
   - mactex-no-gui
   - monitorcontrol
+  - obs
+  - obs-ndi
   - obsidian
+  - orcaslicer
   - plex
   - raspberry-pi-imager
   - signal
@@ -124,6 +130,7 @@ homebrew_apps:
   - sublime-text
   - synology-drive
   - telegram
+  - via
   - visual-studio-code
   - vlc
   - wireshark
