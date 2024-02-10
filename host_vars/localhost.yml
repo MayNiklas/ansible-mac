@@ -103,7 +103,7 @@ homebrew_taps_github:
 
 homebrew_apps:
   - adobe-creative-cloud
-  - autodesk-fusion360
+  # - autodesk-fusion360
   - balenaetcher
   - bambu-studio
   - discord
