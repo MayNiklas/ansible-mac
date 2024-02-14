@@ -96,10 +96,7 @@ homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-drivers
-
-homebrew_taps_github:
-  - { name: alexanderwallau/bonn-mensa, url: https://github.com/alexanderwallau/bonn-mensa }
-  - { name: lounge-rocks/crab_share, url: https://github.com/lounge-rocks/crab_share }
+  - MayNiklas/personal
 
 homebrew_apps:
   - adobe-creative-cloud
@@ -114,6 +111,7 @@ homebrew_apps:
   - github
   - jetbrains-toolbox
   - mactex-no-gui
+  - mayniklas/personal/ondsel
   - monitorcontrol
   - obs
   - obs-ndi
@@ -142,8 +140,6 @@ homebrew_packages:
   - ansible
   - ansible-lint
   - asciinema
-  - bonn-mensa
-  - crab_share
   - ffmpeg
   - fzf
   - go
@@ -151,6 +147,8 @@ homebrew_packages:
   - hugo
   - iperf3
   - latexindent
+  - mayniklas/personal/bonn-mensa
+  - mayniklas/personal/crab_share
   - nmap
   - openai-whisper
   - pre-commit
