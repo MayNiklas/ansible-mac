@@ -149,6 +149,7 @@ homebrew_packages:
   - latexindent
   - mayniklas/personal/bonn-mensa
   - mayniklas/personal/crab_share
+  - mayniklas/personal/p1s-avi-converter
   - nmap
   - openai-whisper
   - pre-commit
