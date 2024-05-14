@@ -116,9 +116,11 @@ homebrew_apps:
   - obs
   - obs-ndi
   - obsidian
+  - openscad
   - orcaslicer
   - plex
   - raspberry-pi-imager
+  - rstudio
   - signal
   - sonos
   - sony-ps-remote-play
@@ -129,23 +131,28 @@ homebrew_apps:
   - synology-drive
   - telegram
   - via
+  - vial
   - visual-studio-code
   - vlc
   - wireshark
   - yubico-authenticator
   - yubico-yubikey-manager
   - zoom
+  - zwift
 
 homebrew_packages:
   - ansible
   - ansible-lint
   - asciinema
+  - esphome
   - ffmpeg
   - fzf
   - go
   - htop
   - hugo
   - iperf3
+  - kompose
+  - kubectl
   - latexindent
   - mayniklas/personal/bonn-mensa
   - mayniklas/personal/crab_share
