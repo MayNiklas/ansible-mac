@@ -107,7 +107,6 @@ homebrew_apps:
   - docker
   - element
   - firefox
-  - freecad
   - github
   - jetbrains-toolbox
   - mactex-no-gui
@@ -117,7 +116,6 @@ homebrew_apps:
   - obs-ndi
   - obsidian
   - openscad
-  - orcaslicer
   - plex
   - raspberry-pi-imager
   - rstudio
@@ -148,6 +146,7 @@ homebrew_packages:
   - ffmpeg
   - fzf
   - go
+  - homebrew/core/r
   - htop
   - hugo
   - iperf3
@@ -160,7 +159,6 @@ homebrew_packages:
   - nmap
   - openai-whisper
   - pre-commit
-  - r
   - rustup
   - wakeonlan
   - wget
