@@ -103,6 +103,8 @@ homebrew_apps:
   - autodesk-fusion
   - balenaetcher
   - bambu-studio
+  - chatgpt
+  - cleanmymac
   - discord
   - docker
   - element
@@ -145,6 +147,7 @@ homebrew_packages:
   - esphome
   - ffmpeg
   - fzf
+  - git-lfs
   - go
   - homebrew/core/r
   - htop
@@ -155,6 +158,7 @@ homebrew_packages:
   - latexindent
   - mayniklas/personal/bonn-mensa
   - mayniklas/personal/crab_share
+  - nvim
   - mayniklas/personal/p1s-avi-converter
   - nmap
   - openai-whisper
