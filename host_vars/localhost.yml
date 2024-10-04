@@ -105,19 +105,23 @@ homebrew_apps:
   - bambu-studio
   - chatgpt
   - cleanmymac
+  - cmake
+  - db-browser-for-sqlite
   - discord
   - docker
   - element
   - firefox
   - github
   - jetbrains-toolbox
+  - kicad
   - mactex-no-gui
   - mayniklas/personal/ondsel
   - monitorcontrol
+  - mqtt-explorer
   - obs
   - obs-ndi
   - obsidian
-  - openscad
+  - openscad@snapshot
   - plex
   - raspberry-pi-imager
   - rstudio
@@ -158,12 +162,13 @@ homebrew_packages:
   - latexindent
   - mayniklas/personal/bonn-mensa
   - mayniklas/personal/crab_share
-  - nvim
   - mayniklas/personal/p1s-avi-converter
   - nmap
+  - nvim
   - openai-whisper
   - pre-commit
   - rustup
+  - stockfish
   - wakeonlan
   - wget
   - yt-dlp
