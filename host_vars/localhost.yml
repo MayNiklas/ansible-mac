@@ -9,17 +9,17 @@ configure_shell: true
 
 configure_vscode: true
 vscode_extensions:
-  - DavidAnson.vscode-markdownlint
-  - GitHub.codespaces
-  - GitHub.copilot
-  - GitHub.copilot
-  - GitHub.copilot-chat
-  - GitHub.github-vscode-theme
-  - GitHub.remotehub
+  - continue.continue
+  - davidanson.vscode-markdownlint
+  - github.codespaces
+  - github.copilot
+  - github.copilot-chat
+  - github.github-vscode-theme
+  - github.remotehub
   - github.vscode-github-actions
-  - GitHub.vscode-pull-request-github
+  - github.vscode-pull-request-github
   - golang.go
-  - James-Yu.latex-workshop
+  - james-yu.latex-workshop
   - ms-azuretools.vscode-docker
   - ms-python.autopep8
   - ms-python.black-formatter
@@ -38,7 +38,7 @@ vscode_extensions:
   - redhat.ansible
   - redhat.vscode-xml
   - redhat.vscode-yaml
-  - REditorSupport.r
+  - reditorsupport.r
   - rust-lang.rust-analyzer
   - yzhang.markdown-all-in-one
 
