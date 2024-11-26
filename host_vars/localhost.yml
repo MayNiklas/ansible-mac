@@ -38,7 +38,6 @@ vscode_extensions:
   - redhat.ansible
   - redhat.vscode-xml
   - redhat.vscode-yaml
-  - reditorsupport.r
   - rust-lang.rust-analyzer
   - yzhang.markdown-all-in-one
 
