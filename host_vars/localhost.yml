@@ -149,11 +149,16 @@ homebrew_packages:
   - ansible
   - ansible-lint
   - asciinema
+  - autoconf
+  - automake
+  - blisp
   - esphome
   - esptool
   - ffmpeg
   - fzf
   - git-lfs
+  - glew
+  - glfw
   - go
   - homebrew/core/r
   - htop
@@ -166,6 +171,7 @@ homebrew_packages:
   - mayniklas/personal/crab_share
   - mayniklas/personal/p1s-avi-converter
   - mayniklas/personal/turbocase
+  - mesa
   - nmap
   - nvim
   - openai-whisper
@@ -176,6 +182,8 @@ homebrew_packages:
   - wakeonlan
   - wget
   - yt-dlp
+
+homebrew_packages_removed: []
 
 # install stuff via app Store
 configure_mas: true
