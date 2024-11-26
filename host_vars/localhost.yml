@@ -111,11 +111,11 @@ homebrew_apps:
   - docker
   - element
   - firefox
+  - freecad
   - github
   - jetbrains-toolbox
   - kicad
   - mactex-no-gui
-  - mayniklas/personal/ondsel
   - monitorcontrol
   - mqtt-explorer
   - obs
