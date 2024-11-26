@@ -150,6 +150,7 @@ homebrew_packages:
   - ansible-lint
   - asciinema
   - esphome
+  - esptool
   - ffmpeg
   - fzf
   - git-lfs
@@ -168,6 +169,7 @@ homebrew_packages:
   - nmap
   - nvim
   - openai-whisper
+  - platformio
   - pre-commit
   - rustup
   - stockfish
