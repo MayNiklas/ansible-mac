@@ -164,6 +164,7 @@ homebrew_packages:
   - mayniklas/personal/bonn-mensa
   - mayniklas/personal/crab_share
   - mayniklas/personal/p1s-avi-converter
+  - mayniklas/personal/turbocase
   - nmap
   - nvim
   - openai-whisper
